@@ -23,8 +23,8 @@ It detects **age-restricted content**, visualizes **comment sentiment**, and ext
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/youtube-video-analyzer.git
-cd youtube-video-analyzer
+git clone https://github.com/Nandhan574/social-media-content-analysis-youtube.git
+cd social-media-content-analysis-youtube
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
