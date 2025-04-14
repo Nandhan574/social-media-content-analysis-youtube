@@ -1,0 +1,12 @@
+tk
+youtube-transcript-api
+better_profanity
+google-api-python-client
+vaderSentiment
+matplotlib
+pandas
+textblob
+nltk
+sumy
+python-dotenv
+beautifulsoup4
