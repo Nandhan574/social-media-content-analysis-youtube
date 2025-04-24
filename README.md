@@ -52,14 +52,18 @@ This app requires access to the YouTube Data API v3 to fetch video statistics an
 4. Go to **Credentials** → Create credentials → **API Key**
 5. Copy the API key
 
-### ▶️ Add API Key to Environment File
+### ▶️ How to add API Key in the Code
 
-- Create a `.env` file in the root directory:
-```env
-YOUTUBE_API_KEY=YOUR_API_KEY_HERE
+- 1.Open the app.py file in the project directory.
+- Locate the line where the API key is set in the code:
+```python
+API_KEY = "YOUR_API_KEY_HERE"
 ```
-
-> ✅ Make sure `.env` is **NOT** pushed to GitHub. It's already ignored in `.gitignore`.
+- Replace "YOUR_API_KEY_HERE" with your actual YouTube Data API v3 key:
+```python
+API_KEY = "YOUR_ACTUAL_API_KEY"
+```
+- 💡 Pro Tip: Be cautious not to share your API key in public repositories to avoid unauthorized usage.
 
 ---
 
