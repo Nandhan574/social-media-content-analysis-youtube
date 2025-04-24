@@ -124,14 +124,7 @@ youtube-video-analyzer/
 └── README.md               # You're reading it!
 ```
 
----
 
-## 📸 Screenshots *(Optional)*
-
-> _You can include some images of your UI here using:_
-```markdown
-![Main UI](Screenshot 2025-04-24 104309.png)
-```
 
 ---
 
