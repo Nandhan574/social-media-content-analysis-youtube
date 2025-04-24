@@ -78,18 +78,19 @@ python app.py
 It opens a desktop window where you can paste any YouTube video URL or ID to start analyzing.
 
 ## 🧪 Testing Accuracy
-- To check the accuracy of the analysis (e.g., sentiment analysis or content classification), follow these steps:
 
-i. Ensure Setup is Complete: Make sure you've cloned the repository, set up the virtual environment, installed dependencies, and added your API key as described in the "Getting Started" section.
-ii. Run the Test Script: Execute the test.py script to evaluate accuracy:
-bash
+To check the accuracy of the analysis (e.g., sentiment analysis or content classification), follow these steps:
 
-Copy
-python test.py
-iii. Expected Output: The script will display the accuracy results, such as classification accuracy for detecting inappropriate content or sentiment analysis precision. Check the terminal for detailed results.
-Notes:
-Ensure you have the necessary data files (e.g., youtube_video_classification.csv) in the correct directory before running the script.
-If you encounter errors, verify that all dependencies are installed and the data paths in test.py are correct.
+- **1. Ensure Setup is Complete**: Make sure you've cloned the repository, set up the virtual environment, installed dependencies, and added your API key as described in the "Getting Started" section.
+- **2. Run the Test Script**: Execute the `test.py` script to evaluate accuracy:
+  ```bash
+  python test.py
+  ```
+- **3.Expected Output: The script will display the accuracy results, such as classification accuracy for detecting inappropriate content or sentiment analysis precision. Check the terminal for detailed results.
+- Notes:
+- Ensure you have the necessary data files (e.g., youtube_video_classification.csv) in the correct directory before running the script.
+- If you encounter errors, verify that all dependencies are installed and the data paths in test.py are correct.
+  
 
 ## 🛠️ Built With
 
