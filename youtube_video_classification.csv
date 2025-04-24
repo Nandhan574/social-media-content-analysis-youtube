@@ -1,0 +1,21 @@
+Video URL,Actual Label,Predicted Label
+https://youtu.be/NkZFnpDhdCk,Restricted,Restricted
+https://www.youtube.com/watch?v=dQw4w9WgXcQ,Safe,Safe
+https://youtu.be/M7lc1UVf-VE,Safe,Safe
+https://youtu.be/IUCeJxjxnN4,Restricted,Restricted
+https://youtu.be/oHg5SJYRHA0,Safe,Safe
+https://www.youtube.com/watch?v=tt2k8PGm-TI,Restricted,Safe
+https://www.youtube.com/watch?v=8ybW48rKBME,Safe,Safe
+https://www.youtube.com/watch?v=z8jGFu7ys64,Restricted,Restricted
+https://youtu.be/L_jWHffIx5E,Restricted,Safe
+https://www.youtube.com/watch?v=abcd1234EFG,Safe,Safe
+https://www.youtube.com/watch?v=3fumBcKC6RE,Restricted,Restricted
+https://www.youtube.com/watch?v=2Vv-BfVoq4g,Safe,Safe
+https://www.youtube.com/watch?v=FTQbiNvZqaY,Safe,Safe
+https://www.youtube.com/watch?v=Hs5a_HMQzX4,Restricted,Restricted
+https://www.youtube.com/watch?v=6_b7RDuLwcI,Restricted,Safe
+https://www.youtube.com/watch?v=8UVNT4wvIGY,Safe,Safe
+https://www.youtube.com/watch?v=rp8hvyjZWHs,Restricted,Restricted
+https://www.youtube.com/watch?v=VYOjWnS4cMY,Restricted,Restricted
+https://www.youtube.com/watch?v=bESGLojNYSo,Restricted,Restricted
+https://www.youtube.com/watch?v=TfL90I2bemA,Safe,Safe
