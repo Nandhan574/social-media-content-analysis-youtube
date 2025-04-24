@@ -25,9 +25,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 load_dotenv()
-API_KEY = os.getenv("YOUTUBE_API_KEY")   # Replace with your actual key if not using .env
-if not API_KEY:
-    raise ValueError("Missing YOUTUBE_API_KEY in .env file")
+API_KEY = os.getenv("q`YI", "YOUR_API_KEY")  # Replace with your actual key if not using .env
 
 # Refined list of restricted keywords - more specific and context-aware
 restricted_keywords = [
@@ -87,9 +85,9 @@ def get_playlist_id(url):
         logger.error(f"Error parsing playlist ID: {e}")
         return None
 
-def fetch_transcript(vid):
+def fetch_transcript(vid, lang="en"):
     try:
-        t = YouTubeTranscriptApi.get_transcript(vid, languages=['en'])
+        t = YouTubeTranscriptApi.get_transcript(vid, languages=[lang[:2].lower()])
         text = " ".join([e['text'] for e in t])
         logger.info(f"Successfully fetched transcript for video {vid}")
         return text, t
@@ -120,8 +118,8 @@ def fetch_video_stats(vid):
         logger.error(f"Failed to fetch video stats: {e}")
         return None
 
-def analyze_transcript(vid):
-    txt, data = fetch_transcript(vid)
+def analyze_transcript(vid, lang="en"):
+    txt, data = fetch_transcript(vid, lang)
     if txt:
         is_res = contains_violence_or_controversy(txt)
         found = get_restricted_keywords(txt) if is_res else []
@@ -302,7 +300,8 @@ class YouTubeAnalyzerApp:
         self.display_video_info(vid, stats)
         self.root.update()
         
-        analysis = analyze_transcript(vid)
+        lang = "en"  # Default to English
+        analysis = analyze_transcript(vid, lang)
         if analysis is None:
             # If transcript is unavailable, rely on YouTube's age restriction status or source-based restriction
             is_res = is_restricted_by_source or stats.get("age_restricted_by_youtube", False)
