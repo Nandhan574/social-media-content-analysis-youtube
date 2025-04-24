@@ -126,7 +126,7 @@ youtube-video-analyzer/
 
 > _You can include some images of your UI here using:_
 ```markdown
-![Main UI](screenshots/main_ui.png)
+![Main UI](Screenshot 2025-04-24 104309.png)
 ```
 
 ---
